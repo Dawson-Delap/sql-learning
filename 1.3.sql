@@ -1,4 +1,5 @@
-create table point3 (
-id INt,
-name VARCHAR(100),
-decim DEC)
+create table point2(
+id Int,
+name Varchar(100),
+number INT
+)

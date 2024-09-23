@@ -1,13 +1,9 @@
-create table point7(
+create table point12(
 id INT,
-name VARCHAR(100),
-number INT)
------------------------
-alter table point7
-add yup INT
------------------------
-select * from point7
-where name is not null
------------------------
-drop table point7
------------------------
+name Varchar(100)
+)
+--------------------------
+alter table point12
+add number INT
+--------------------------
+drop table point12

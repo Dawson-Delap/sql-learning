@@ -1,11 +1,8 @@
-create procedure point1proc ( 
-	@name VARCHAR(100), 
-	@number INT output)
+create procedure proc12
 as
-return @number *3
-insert into point1 values (1, @name, 100)
------------------------------------------
-exec point1proc @name = 'persons', @number = 4
------------------------------------------
-drop procedure point1proc
------------------------------------------
+create table point12(
+id INT,
+name Varchar(100)
+)
+-----------------------------
+exec proc12
